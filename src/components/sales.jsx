@@ -23,7 +23,7 @@ export default function Sales() {
               brands </span>
           </h2>
           <p>
-            Improve your brands shoping experience and <br />easily expand your
+            Improve your brands shopping experience and <br />easily expand your
             audience and market your <br />
             products.
           </p>

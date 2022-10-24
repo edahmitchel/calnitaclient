@@ -9,7 +9,7 @@ function Header({ notify }) {
   function submit(e) {
     e.preventDefault()
     console.log("this is email", email)
-    const status = sendMail(email)
+    sendMail(email)
     notify()
   }
 

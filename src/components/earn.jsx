@@ -9,7 +9,7 @@ export default function Earn() {
                 <div className="earn__section-left">
                     <h5>Earn</h5>
                     <h2>
-                        Create beauty and content <br />
+                        Create beauty content <br />
                         and profit from brand <br />
                         <span>deals and sales</span>
                     </h2>
@@ -21,7 +21,7 @@ export default function Earn() {
                     </p>
                 </div>
                 <div className="earn__section-right">
-                    <img src={earnImage} alt="earn image" />
+                    <img src={earnImage} alt="earn" />
                 </div>
             </div>
             {/* <!-- END OF EARN SECTION --> */}

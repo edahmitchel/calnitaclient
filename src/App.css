@@ -59,7 +59,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a,
+button {
   font-family: "andora", sans-serif;
 }
 
@@ -286,6 +288,13 @@ header {
     align-items: flex-start;
     justify-content: flex-start;
   }
+  header li a {
+    font-family: "andora", sans-serif;
+    font-size: 1rem;
+  }
+  header button {
+    font-size: 0.5rem;
+  }
 
   .logo {
     margin-top: 1rem;
@@ -312,7 +321,7 @@ header {
   }
 
   .hero__left p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .hero__left ul {
@@ -483,7 +492,7 @@ header {
   }
 
   .earn__section-left p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .earn__section-right img {
