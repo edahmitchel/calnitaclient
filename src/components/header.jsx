@@ -40,7 +40,7 @@ function Header({ notify }) {
 
             <ul className="slide__left">
               <li><a href="#">Instagram</a></li>
-              <li><a href="#">Linked In</a></li>
+              <li><a href="#">LinkedIn</a></li>
               <li><a href="#">Twitter</a></li>
             </ul>
           </div>

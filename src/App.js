@@ -16,13 +16,12 @@ function App() {
   const ref1 = useRef(null);
   const ref2 = useRef(null);
   const ref3 = useRef(null);
-  const ref4 = useRef(null);
+
   const ref5 = useRef(null);
   const isInViewport1 = useIsInViewport(ref1);
   const isInViewport2 = useIsInViewport(ref2);
   const isInViewport3 = useIsInViewport(ref3);
-  const isInViewport4 = useIsInViewport(ref4);
-  const isInViewport5 = useIsInViewport(ref5);
+  // const isInViewport5 = useIsInViewport(ref5);
 
   console.log("this is in view", isInViewport1);
   console.log("this is in view 2", isInViewport2);
@@ -66,24 +65,14 @@ function App() {
           <Features />
         </section>
         <section
-          ref={ref4}
-          className={
-            isInViewport4
-              ? "contact__section section"
-              : "section__hidden contact__section"
-          }
+          // ref={ref4}
+          className={"contact__section section"}
           id="contact-section"
         >
           <Contact notify={notify} />
         </section>
 
-        <footer
-          ref={ref5}
-          className={
-            isInViewport5 ? "footer section" : "footer section__hidden"
-          }
-          id="footer"
-        >
+        <footer ref={ref5} className={"footer section"} id="footer">
           <Footer />
         </footer>
 

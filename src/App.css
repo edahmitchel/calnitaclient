@@ -277,6 +277,10 @@ header {
     flex-direction: column;
     width: var(--container-width-md);
   }
+  .btn {
+    font-size: 0.8rem;
+    /* font-weight: 600; */
+  }
 
   header {
     min-height: 100vh;
@@ -321,7 +325,7 @@ header {
   }
 
   .hero__left p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .hero__left ul {
@@ -492,7 +496,7 @@ header {
   }
 
   .earn__section-left p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .earn__section-right img {
