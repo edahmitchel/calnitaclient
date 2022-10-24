@@ -325,7 +325,7 @@ header {
   }
 
   .hero__left p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .hero__left ul {
@@ -408,6 +408,9 @@ header {
   .section {
     flex-direction: column;
   }
+  /* .right__choices-right p {
+    font-size: O.85rem;
+  } */
 
   .right__choices-container {
     margin-top: 2rem;
@@ -427,6 +430,9 @@ header {
   }
   .right__choices-right {
     text-align: center;
+  }
+  .right__choices-right p {
+    font-size: 0.9rem;
   }
 }
 
@@ -496,7 +502,7 @@ header {
   }
 
   .earn__section-left p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .earn__section-right img {
@@ -557,6 +563,9 @@ header {
 
   .sales__section-right {
     text-align: center;
+  }
+  .sales__section-right p {
+    font-size: 0.85rem;
   }
 
   .sales__section-right h2 {
