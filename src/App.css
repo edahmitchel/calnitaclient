@@ -672,11 +672,11 @@ header {
     width: 80%;
     column-gap: 2rem;
   }
+  .features__container h2 {
+    font-size: 1.5rem;
+  }
 }
 
-.features__container h2 {
-  font-size: 1.5rem;
-}
 /* END OF FEATURES SECTION */
 
 /* CONTACT SECTION */
