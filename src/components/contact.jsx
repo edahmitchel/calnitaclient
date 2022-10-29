@@ -23,7 +23,7 @@ export default function Contact({ notify }) {
             {/* <!-- CONTACT SECTION --> */}
             <div className="container contact__container">
                 <h2>
-                    Willing to try a brand New <br />beauty experience? join our <br />
+                    Willing to try a brand new <br />beauty experience? join our <br />
                     <span> Waitlist to see when we <br />launch </span>
                 </h2>
 
