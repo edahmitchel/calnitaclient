@@ -1,7 +1,7 @@
-import axios from "axios"
+// import axios from "axios"
 import { useState } from "react"
 import { sendMail } from "../apiCall"
-import { useEffect } from "react"
+// import { useEffect } from "react"
 // const url = "https://courageous-yak-veil.cyclic.app"
 
 export default function Contact({ notify }) {
@@ -13,6 +13,7 @@ export default function Contact({ notify }) {
         console.log("this is email", email)
         sendMail(email)
         notify()
+
     }
 
     return (
