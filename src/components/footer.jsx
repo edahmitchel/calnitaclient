@@ -14,9 +14,11 @@ export default function Footer() {
         <img className="logo footer__logo" src={logo} alt="logo" />
 
         <div className="social__links">
-          <img src={linkedIn} alt="LinkedIn" />
-          <img src={instagram} alt="Instagram" />
-          <img src={twitter} alt="Twitter" />
+          <a href="https://www.linkedin.com/company/calnitahq/" ><img src={linkedIn} alt="LinkedIn" className="footer-img" /></a>
+
+          <a href="https://www.instagram.com/calnitaapp/"><img src={instagram} alt="Instagram" className="footer-img" /></a>
+          <a href="https://twitter.com/Calnitaapp?t=crEknLrgQguCCmc1078CWA&s=09"><img src={twitter} alt="Twitter" className="footer-img" /></a>
+          {/* <img src={twitter} alt="Twitter" /> */}
         </div>
 
         <div className="contact__info">

@@ -39,9 +39,9 @@ function Header({ notify }) {
             </form>
 
             <ul className="slide__left">
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Twitter</a></li>
+              <li><a href="https://www.instagram.com/calnitaapp/">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/calnitahq/" >LinkedIn</a></li>
+              <li><a href="https://twitter.com/Calnitaapp?t=crEknLrgQguCCmc1078CWA&s=09">Twitter</a></li>
             </ul>
           </div>
           <div className="hero__right">

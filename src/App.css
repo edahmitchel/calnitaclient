@@ -751,6 +751,9 @@ footer {
   justify-content: space-between;
   background: var(--primary-color-variant-1);
 }
+.footer-img {
+  height: 1.7rem;
+}
 
 .social__links {
   display: flex;
@@ -789,6 +792,9 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 0;
+    height: 1.3rem;
+  }
+  .footer-img {
     height: 1.3rem;
   }
 }
