@@ -20,15 +20,16 @@ function Header({ notify }) {
         <div className="container hero__container">
           <div className="hero__left">
             <h2 className="slide__left">
-              Start Your Perfect<br />
-              Beauty Journey With<br />
-              The <span>Calnita App</span>
+              The Shopify for <br />
+              <span>beauty brands</span>
             </h2>
 
             <p className="slide__left">
-              Make your journey through beauty exciting and <br />
+              Experience the best from your favourite beauty<br /> brands and learn about fantastic products to<br /> improve your everyday routine and make you<br /> feel confident and attractive.
+
+              {/* Make your journey through beauty exciting and <br />
               get help finding the right beauty products<br />
-              suited for you.
+              suited for you. */}
             </p>
 
             <form className="hero__form slide__left">

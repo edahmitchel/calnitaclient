@@ -15,17 +15,18 @@ export default function Sales() {
           <img src={salesSectionImage} alt="sales section" />
         </div>
         <div className="sales__section-right">
-          <h5>Sales</h5>
+          <h5>Insights</h5>
           <h2>
-            The shopify for
-            <span
-            > beauty<br />
-              brands </span>
+            Beauty insights
+            <br /> <span
+            >
+              for smarter purchases
+            </span>
           </h2>
           <p>
-            Improve your brands shopping experience and <br />easily expand your
-            audience and market your <br />
-            products.
+            Use our insider information and Al product<br /> insights to up your beauty game.
+
+
           </p>
         </div>
       </div>
